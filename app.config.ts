@@ -6,11 +6,11 @@ export default defineAppConfig({
     footer: {
       iconLinks: [
         {
-          href: "/vote",
+          href: "/docs/vote",
           icon: "simple-icons:topdotgg"
         },
         {
-          href: "/support",
+          href: "/docs/support",
           icon: "simple-icons:discord"
         }
       ]
