@@ -6,11 +6,11 @@ export default defineAppConfig({
     footer: {
       iconLinks: [
         {
-          href: "/docs/vote",
+          href: "https://extron.netlify.app/vote",
           icon: "simple-icons:topdotgg"
         },
         {
-          href: "/docs/support",
+          href: "https://extron.netlify.app/support",
           icon: "simple-icons:discord"
         }
       ]
