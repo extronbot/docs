@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "dev": "nuxi dev",
+    "generate": "nuxi generate"
+  },
+  "devDependencies": {
+    "@nuxt-themes/docus": "latest",
+    "@nuxt/devtools": "^1.0.8",
+    "nuxt": "^3.10.3",
+    "pinceau": "^0.15.4"
+  }
+}
