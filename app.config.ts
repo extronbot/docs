@@ -7,11 +7,15 @@ export default defineAppConfig({
       iconLinks: [
         {
           href: "https://extron.netlify.app/vote",
-          icon: "simple-icons:topdotgg"
+          icon: "simple-icons:topdotgg",
+          target: "_blank",
+          label: "Vote"
         },
         {
           href: "https://extron.netlify.app/support",
-          icon: "simple-icons:discord"
+          icon: "simple-icons:discord",
+          label: "Support Server",
+          target: "_blank"
         }
       ]
     }

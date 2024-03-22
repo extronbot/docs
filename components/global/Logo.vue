@@ -1,6 +1,6 @@
 <template>
-  <img src="/icon-light.png" alt="Logo of extron" class="img-dark"/>
-  <img src="/icon-dark.png" alt="Logo of extron" class="img-light"/>
+  <nuxt-img src="/icon-light.png" alt="Logo of extron" width="115px" height="30px" class="img-dark"/>
+  <nuxt-img src="/icon-dark.png" alt="Logo of extron" width="115px" height="30px" class="img-light"/>
 </template>
 
 <style scoped>
