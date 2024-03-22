@@ -5,9 +5,10 @@
   },
   "devDependencies": {
     "@nuxt-themes/docus": "latest",
-    "@nuxt/devtools": "^1.0.8",
-    "@nuxt/image": "^1.4.0",
-    "nuxt": "^3.10.3",
-    "pinceau": "^0.15.4"
+    "@nuxt/devtools": "latest",
+    "@nuxt/image": "latest",
+    "nuxt": "latest",
+    "nuxt-speedkit": "^3.0.0-next.51",
+    "pinceau": "^0.20.1"
   }
 }
