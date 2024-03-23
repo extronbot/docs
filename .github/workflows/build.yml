@@ -36,6 +36,8 @@ jobs:
         run: bun install
       - name: Static HTML export with Nuxt
         run: bun generate
+        env:
+          NUXT_APP_BASE_URL: /docs
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
