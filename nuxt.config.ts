@@ -2,6 +2,12 @@ export default defineNuxtConfig({
   modules: ["@nuxt/image", "nuxt-speedkit"],
   extends: ["@nuxt-themes/docus"],
   devtools: { enabled: true },
+  nitro: {
+    prerender: {
+      crawlLinks: true,
+      failOnError: false,
+    }
+  },
   app: {
     head: {
       templateParams: { separator: "|" },
