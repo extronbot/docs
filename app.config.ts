@@ -1,6 +1,6 @@
 export default defineAppConfig({
   docus: {
-    title: "Extron Documentation",
+    titleTemplate: "%s %separator Extron Documentation",
     //description: "The best place to start your documentation.",
     header: { logo: true },
     footer: {

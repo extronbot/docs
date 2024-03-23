@@ -4,6 +4,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   app: {
     head: {
+      templateParams: { separator: "|" },
       link: [{ rel: "icon", type: "image/x-icon", href: "/docs/favicon.ico" }]
     }
   },

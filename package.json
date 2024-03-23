@@ -5,7 +5,7 @@
     "dev": "nuxi dev",
     "generate": "nuxi generate"
   },
-  "devDependencies": {
+  "dependencies": {
     "@nuxt-themes/docus": "latest",
     "@nuxt/devtools": "latest",
     "@nuxt/image": "latest",
