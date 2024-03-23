@@ -1,3 +1,3 @@
 # Extron Documentation
 
-Find it at https://extron.netlify.app/docs
+Find it at https://extronbeta.netlify.app/docs
