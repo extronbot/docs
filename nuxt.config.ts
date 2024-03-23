@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   app: {
     head: {
       templateParams: { separator: "|" },
-      link: [{ rel: "icon", type: "image/x-icon", href: "/docs/favicon.ico" }]
+      link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
     }
   },
   speedkit: {
