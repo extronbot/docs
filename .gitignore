@@ -1,6 +1,0 @@
-node_modules
-yarn.lock
-.vscode
-.output
-.nuxt
-dist

@@ -1,4 +1,4 @@
-name: Build nuxt site
+name: Build site
 
 on:
   push:
@@ -7,39 +7,34 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
-# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
-
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
       - name: Setup Bun
         uses: oven-sh/setup-bun@v1
-        #with:
-        #  static_site_generator: nuxt
+
       - name: Restore cache
         uses: actions/cache@v4
         with:
           path: |
-            dist
-            .nuxt
-          key: ${{ runner.os }}-nuxt-build-${{ hashFiles('dist') }}
-          restore-keys: |
-            ${{ runner.os }}-nuxt-build-
+            out
+            .next
+          key: ${{ runner.os }}-build-${{ hashFiles('out') }}
+          restore-keys: ${{ runner.os }}-build-
+
       - name: Install dependencies
         run: bun install
-      - name: Static HTML export with Nuxt
-        run: bun generate
-        env:
-          NUXT_APP_BASE_URL: /docs
+
+      - name: Static HTML export
+        run: bun build
+
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: public
-          path: ./dist
+          name: export.zip
+          path: ./out

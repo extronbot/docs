@@ -1,16 +1,18 @@
 {
-  "private": true,
-  "license": "MIT",
   "scripts": {
-    "dev": "nuxi dev",
-    "generate": "nuxi generate"
+    "dev": "next dev",
+    "build": "next build"
   },
+  "license": "MIT",
   "dependencies": {
-    "@nuxt-themes/docus": "latest",
-    "@nuxt/devtools": "latest",
-    "@nuxt/image": "latest",
-    "nuxt": "latest",
-    "nuxt-speedkit": "^3.0.0-next.51",
-    "pinceau": "^0.20.1"
+    "@neato/guider": "^1.0.3",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "sharp": "latest"
+  },
+  "devDependencies": {
+    "@types/react": "latest",
+    "typescript": "latest"
   }
 }

@@ -1,0 +1,82 @@
+::-webkit-scrollbar {
+    display: none
+}
+
+header {
+    padding: 10px 20px 0 !important
+}
+
+header div.gd-mb-6 {
+    padding-bottom: 10px !important;
+    margin-bottom: 0 !important
+}
+
+h3 {
+    margin-top: 1.5rem !important
+}
+
+header div.gd-fixed.gd-inset-x-0.gd-top-0.gd-z-\[100\] iconify-icon,header div.gd-flex.gd-justify-between.gd-mb-6 iconify-icon {
+    position: relative;
+    top: 2px
+}
+
+aside {
+    padding-top: 0 !important
+}
+
+article div.gd-flex.gd-justify-between.gd-mt-12 {
+    display: none !important
+}
+
+div.gd-bg-semanticCaution.gd-border-semanticCaution.gd-text-semanticCautionLighter.gd-p-4.gd-rounded-md.gd-my-6.gd-text-sm.gd-bg-opacity-\[7\%\].gd-border.gd-border-opacity-50.gd-flex > div.gd-flex-1.neato-guider-callout-child > p > a {
+    color: inherit !important
+}
+
+div.gd-bg-semanticCaution.gd-border-semanticCaution.gd-text-semanticCautionLighter.gd-p-4.gd-rounded-md.gd-my-6.gd-text-sm.gd-bg-opacity-\[7\%\].gd-border.gd-border-opacity-50.gd-flex > div.gd-flex-1.neato-guider-callout-child > p > a:hover {
+    color: #fc6359 !important
+}
+
+div.gd-bg-semanticCaution.gd-border-semanticCaution.gd-text-semanticCautionLighter.gd-p-4.gd-rounded-md.gd-my-6.gd-text-sm.gd-bg-opacity-\[7\%\].gd-border.gd-border-opacity-50.gd-flex > div.gd-flex-1.neato-guider-callout-child > p > strong {
+    font-weight: 700 !important;
+    color: inherit !important
+}
+
+.gd-border-primary {
+    color: rgb(var(--colors-primary)) !important;
+    text-decoration-line: underline !important;
+    font-weight: 700 !important;
+    border: 0 !important
+}
+
+/* .neato-guider-callout-child strong {
+    font-weight: 700 !important;
+    color: inherit !important
+}
+
+.gd-bg-semanticCaution .gd-text-primary {
+    color: inherit !important
+}
+
+.gd-bg-semanticCaution .gd-text-primary:hover {
+    color: #fc6359 !important
+} */
+
+.logo {
+    border-radius: 5px;
+    margin-left: -.5rem;
+    padding: .5rem;
+    transition: transform .1s ease-in-out, background-color .1s ease-in-out
+}
+
+.logo>img {
+    height: 36px;
+    width: 126px
+}
+
+.logo:hover {
+    background-color: rgba(var(--colors-bgLightest))
+}
+
+.logo:active {
+    transform: scale(1.05)
+}
