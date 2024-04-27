@@ -31,9 +31,9 @@ jobs:
         run: bun install
 
       - name: Static HTML export
-        run: bun build
+        run: bun run build
 
-      - name: Upload artifact
+      - name: Upload archive
         uses: actions/upload-artifact@v4
         with:
           name: export.zip
