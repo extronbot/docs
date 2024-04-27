@@ -36,5 +36,5 @@ jobs:
       - name: Upload archive
         uses: actions/upload-artifact@v4
         with:
-          name: export.zip
+          name: export
           path: ./out
